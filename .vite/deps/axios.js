@@ -744,7 +744,7 @@ var hasStandardBrowserWebWorkerEnv = (() => {
   return typeof WorkerGlobalScope !== "undefined" && // eslint-disable-next-line no-undef
   self instanceof WorkerGlobalScope && typeof self.importScripts === "function";
 })();
-var origin = hasBrowserEnv && window.location.href || "http://localhost";
+var origin = hasBrowserEnv && window.location.href || "https://isa-matara-frontend.vercel.app";
 
 // node_modules/axios/lib/platform/index.js
 var platform_default = {
