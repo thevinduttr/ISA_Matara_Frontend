@@ -5,7 +5,7 @@ import LandingPage from './components/LandingPage';
 import ClientGallery from './components/ClientGallery';
 import ClientProjects from './components/ClientProjects';
 import AboutUs from './components/AboutUs';
-import ContactUs from './components/ContactUs';
+import ContactUs from './components/Contactus';
 
 import LoginPage from './components/admin/LoginPage';
 import GalleryManager from './components/admin/GalleryManager';
